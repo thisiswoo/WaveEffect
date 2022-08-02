@@ -15,7 +15,7 @@ export class Dot {
     animate(ctx) {
         ctx.beginPath();
         ctx.fillStyle = '#000';
-        crx.fillRect(
+        ctx.fillRect(
             this.x - this.pixelSizeHalf,
             this.y - this.pixelSizeHalf,
             this.pixelSize, this.pixelSize
